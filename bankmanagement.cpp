@@ -304,9 +304,11 @@ int main() {
         // Optional - Can load a database here.
 
         // Normal user
+        
         pin:
         cout << "Enter PIN: ";
         cin >> pin;
+
 
         if (!card.verifyPin(pin)) goto pin;
         else {
